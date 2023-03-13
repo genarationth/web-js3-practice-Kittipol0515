@@ -20,3 +20,10 @@ function divide(a,b) {
 }
 let answer = divide(100,10);
 console.log (answer);
+
+// another exercise
+
+function aboutme(firstName, location, hobby) {
+    console.log("Hi, my name is " + firstName + "I live in " + location + "and enjoy "+hobby);
+  }
+aboutme("Kitti", "Bangkok", "playing games"); 
